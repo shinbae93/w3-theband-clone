@@ -15,6 +15,10 @@
             rel="stylesheet"
             href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.min.css"
         />
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/themify-icons/themify-icons.css"
+        />
     </head>
     <body>
         <div id="main">
@@ -26,7 +30,7 @@
                     <li><a href="#tour">Tour</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             More
                             <i class="nav-arrow-down fas fa-caret-down"></i>
                         </a>
@@ -38,10 +42,17 @@
                     </li>
                 </ul>
 
+                <!-- Search Button -->
                 <div class="search-btn">
                     <i class="search-icon fas fa-search"></i>
                 </div>
+
+                <!-- Menu Button -->
+                <div id="mobile-menu" class="mobile-menu-btn">
+                    <i class="menu-icon ti-menu"></i>
+                </div>
             </div>
+
             <!-- Slider -->
             <div id="slider">
                 <div class="text-content">
@@ -51,6 +62,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- Content -->
             <div id="content">
                 <!-- About Section -->
@@ -74,31 +86,31 @@
                         commodo consequat.
                     </p>
                     <div class="row members">
-                        <div class="col col-3 text-center">
-                            <p class="member-name">MTL</p>
+                        <div class="col col-3 text-center mobile-col-full mt-32">
+                            <p class="member-name">Name</p>
                             <img
-                                src="./assets/img/member/MTL.jpg"
-                                alt="MTL"
+                                src="https://www.w3schools.com/w3images/bandmember.jpg"
+                                alt="Name"
                                 class="member-img"
-                                style="border-radius: 4px; width: 60%"
+                                style="border-radius: 4px;"
                             />
                         </div>
-                        <div class="col col-3 text-center">
-                            <p class="member-name">Shin</p>
+                        <div class="col col-3 text-center mobile-col-full mt-32">
+                            <p class="member-name">Name</p>
                             <img
-                                src="./assets/img/member/Shin2.jpg"
-                                alt="Shin"
+                                src="https://www.w3schools.com/w3images/bandmember.jpg"
+                                alt="Name"
                                 class="member-img"
-                                style="border-radius: 4px; width: 60%"
+                                style="border-radius: 4px;"
                             />
                         </div>
-                        <div class="col col-3 text-center">
-                            <p class="member-name">Corgi</p>
+                        <div class="col col-3 text-center mobile-col-full mt-32">
+                            <p class="member-name">Name</p>
                             <img
-                                src="./assets/img/member/Corgi.jpg"
-                                alt="Corgi"
+                                src="https://www.w3schools.com/w3images/bandmember.jpg"
+                                alt="Name"
                                 class="member-img"
-                                style="border-radius: 4px; width: 60%"
+                                style="border-radius: 4px;"
                             />
                         </div>
                     </div>
@@ -123,7 +135,7 @@
                         </ul>
                         <!-- Places -->
                         <div class="row places-list">
-                            <div class="col col-3">
+                            <div class="col col-3 mobile-col-full mt-16">
                                 <img
                                     src="./assets/img/places/newyork.jpg"
                                     alt="Newyork"
@@ -136,10 +148,10 @@
                                         Praesent tincidunt sed tellus ut rutrum
                                         sed vitae justo.
                                     </p>
-                                    <a href="#" class="btn">Buy Tickets</a>
+                                    <button class="btn js-buy-ticket mobile-full-width">Buy Tickets</a>
                                 </div>
                             </div>
-                            <div class="col col-3">
+                            <div class="col col-3 mobile-col-full mt-16">
                                 <img
                                     src="./assets/img/places/paris.jpg"
                                     alt="Paris"
@@ -152,10 +164,10 @@
                                         Praesent tincidunt sed tellus ut rutrum
                                         sed vitae justo.
                                     </p>
-                                    <a href="#" class="btn">Buy Tickets</a>
+                                    <button class="btn js-buy-ticket mobile-full-width">Buy Tickets</a>
                                 </div>
                             </div>
-                            <div class="col col-3">
+                            <div class="col col-3 mobile-col-full mt-16">
                                 <img
                                     src="./assets/img/places/sanfran.jpg"
                                     alt="San Francisco"
@@ -168,7 +180,7 @@
                                         Praesent tincidunt sed tellus ut rutrum
                                         sed vitae justo.
                                     </p>
-                                    <a href="#" class="btn">Buy Tickets</a>
+                                    <button class="btn js-buy-ticket mobile-full-width">Buy Tickets</a>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +192,7 @@
                     <h2 class="section-heading">CONTACT</h2>
                     <p class="section-sub-heading">Fan? Drop a note!</p>
                     <div class="row contact-content">
-                        <div class="col col-2 contact-info">
+                        <div class="col col-2 mobile-col-full contact-info">
                             <p>
                                 <i class="fas fa-map-marker-alt"></i>Chicago, US
                             </p>
@@ -190,10 +202,10 @@
                                 mail@mail.com
                             </p>
                         </div>
-                        <div class="col col-2 contact-form">
+                        <div class="col col-2 mobile-col-full contact-form">
                             <form action="">
                                 <div class="row">
-                                    <div class="col col-2">
+                                    <div class="col col-2 mobile-col-full">
                                         <input
                                             type="text"
                                             name=""
@@ -203,7 +215,7 @@
                                             class="form-control"
                                         />
                                     </div>
-                                    <div class="col col-2">
+                                    <div class="col col-2 mobile-col-full">
                                         <input
                                             type="email"
                                             name=""
@@ -229,23 +241,18 @@
                                 <input
                                     type="submit"
                                     value="SEND"
-                                    class="btn mt-16 pull-right"
+                                    class="btn mt-16 pull-right mobile-full-width"
                                 />
                             </form>
                         </div>
                     </div>
                 </div>
                 <div class="map-section">
-                    <video
-                        id="video-background"
-                        preload="auto"
-                        autoplay="true"
-                        loop="loop"
-                        muted
+                    <img
+                        src="https://www.w3schools.com/w3images/map.jpg"
+                        alt=""
                         style="width: 100%"
-                    >
-                        <source src="./assets/img/囍fin.mp4" type="video/mp4" />
-                    </video>
+                    />
                 </div>
             </div>
 
@@ -266,6 +273,51 @@
                     >
                 </p>
             </div>
+
+            <!-- Buy ticket modal -->
+            <div class="modal">
+                <div class="modal-container">
+                    <div class="modal-close">
+                        <i class="ti-close"></i>
+                    </div>
+
+                    <header class="modal-header">
+                        <i class="modal-heading-icon ti-bag"></i>
+                        Tickets
+                    </header>
+
+                    <div class="modal-body">
+                        <label for="quantity" class="modal-label">
+                            <i class="ti-shopping-cart"></i>
+                            Tickets, $15 per person
+                        </label>
+                        <input
+                            type="text"
+                            id="quantity"
+                            class="modal-input"
+                            placeholder="How many?"
+                        />
+                        <label for="email" class="modal-label">
+                            <i class="ti-user"></i>
+                            Send to
+                        </label>
+                        <input
+                            type="email"
+                            id="email"
+                            class="modal-input"
+                            placeholder="Enter email..."
+                        />
+                        <button id="buy-tickets">
+                            Pay <i class="ti-check"></i>
+                        </button>
+                    </div>
+                    <footer class="modal-footer">
+                        <p class="modal-help">Need <a href="" target="_blank">help ?</a></p>
+                    </footer>
+                </div>
+            </div>
+
+            <script src="./assets/js/main.js"></script>
         </div>
     </body>
 </html>
