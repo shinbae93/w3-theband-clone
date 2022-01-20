@@ -69,7 +69,7 @@ modal.addEventListener("click", function (e) {
     }
 });
 
-// Click outsite sub-navigation to close
+// Click outsite navigation to close
 document.addEventListener("click", function (e) {
     if (!e.target.closest("#nav") && !e.target.closest("#mobile-menu")) {
         subnav.classList.remove("subnav-open");
