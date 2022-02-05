@@ -200,10 +200,15 @@ html {
 /* Slider */
 
 #slider {
-    padding-top: 50%;
-    background: url(https://www.w3schools.com/w3images/la.jpg) top center /
-        cover no-repeat;
     position: relative;
+}
+#slider .swiper {
+    margin-top: 46px;
+    z-index: -999999;
+}
+
+#slider .swiper-slide img {
+    width: 100%;
 }
 
 #slider .text-content {

@@ -78,3 +78,15 @@ document.addEventListener("click", function (e) {
         header.style.height = null;
     }
 });
+
+// Swiper JS
+
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 0,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+});

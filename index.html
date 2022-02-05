@@ -19,6 +19,10 @@
             rel="stylesheet"
             href="./assets/fonts/themify-icons/themify-icons.css"
         />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
     </head>
     <body>
         <div id="main">
@@ -55,10 +59,53 @@
 
             <!-- Slider -->
             <div id="slider">
-                <div class="text-content">
-                    <h2 class="text-heading">Los Angeles</h2>
-                    <div class="text-description">
-                        <b>We had the best time playing at Venice Beach!</b>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img
+                                src="https://www.w3schools.com/w3images/la.jpg"
+                                alt="Los Angeles"
+                            />
+                            <div class="text-content">
+                                <h2 class="text-heading">Los Angeles</h2>
+                                <div class="text-description">
+                                    <b
+                                        >We had the best time playing at Venice
+                                        Beach!</b
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                src="https://www.w3schools.com/w3images/chicago.jpg"
+                                alt="Chicago"
+                            />
+                            <div class="text-content">
+                                <h2 class="text-heading">Chicago</h2>
+                                <div class="text-description">
+                                    <b
+                                        >Thank you, Chicago - A night we won't
+                                        forget.</b
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                src="https://www.w3schools.com/w3images/ny.jpg"
+                                alt="New York"
+                            />
+                            <div class="text-content">
+                                <h2 class="text-heading">New York</h2>
+                                <div class="text-description">
+                                    <b
+                                        >The atmosphere in New York is lorem
+                                        ipsum.</b
+                                    >
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -86,31 +133,37 @@
                         commodo consequat.
                     </p>
                     <div class="row members">
-                        <div class="col col-3 text-center mobile-col-full mt-32">
+                        <div
+                            class="col col-3 text-center mobile-col-full mt-32"
+                        >
                             <p class="member-name">Name</p>
                             <img
                                 src="https://www.w3schools.com/w3images/bandmember.jpg"
                                 alt="Name"
                                 class="member-img"
-                                style="border-radius: 4px;"
+                                style="border-radius: 4px"
                             />
                         </div>
-                        <div class="col col-3 text-center mobile-col-full mt-32">
+                        <div
+                            class="col col-3 text-center mobile-col-full mt-32"
+                        >
                             <p class="member-name">Name</p>
                             <img
                                 src="https://www.w3schools.com/w3images/bandmember.jpg"
                                 alt="Name"
                                 class="member-img"
-                                style="border-radius: 4px;"
+                                style="border-radius: 4px"
                             />
                         </div>
-                        <div class="col col-3 text-center mobile-col-full mt-32">
+                        <div
+                            class="col col-3 text-center mobile-col-full mt-32"
+                        >
                             <p class="member-name">Name</p>
                             <img
                                 src="https://www.w3schools.com/w3images/bandmember.jpg"
                                 alt="Name"
                                 class="member-img"
-                                style="border-radius: 4px;"
+                                style="border-radius: 4px"
                             />
                         </div>
                     </div>
@@ -148,7 +201,11 @@
                                         Praesent tincidunt sed tellus ut rutrum
                                         sed vitae justo.
                                     </p>
-                                    <button class="btn js-buy-ticket mobile-full-width">Buy Tickets</a>
+                                    <button
+                                        class="btn js-buy-ticket mobile-full-width"
+                                    >
+                                        Buy Tickets
+                                    </button>
                                 </div>
                             </div>
                             <div class="col col-3 mobile-col-full mt-16">
@@ -164,7 +221,11 @@
                                         Praesent tincidunt sed tellus ut rutrum
                                         sed vitae justo.
                                     </p>
-                                    <button class="btn js-buy-ticket mobile-full-width">Buy Tickets</a>
+                                    <button
+                                        class="btn js-buy-ticket mobile-full-width"
+                                    >
+                                        Buy Tickets
+                                    </button>
                                 </div>
                             </div>
                             <div class="col col-3 mobile-col-full mt-16">
@@ -180,7 +241,11 @@
                                         Praesent tincidunt sed tellus ut rutrum
                                         sed vitae justo.
                                     </p>
-                                    <button class="btn js-buy-ticket mobile-full-width">Buy Tickets</a>
+                                    <button
+                                        class="btn js-buy-ticket mobile-full-width"
+                                    >
+                                        Buy Tickets
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -312,11 +377,14 @@
                         </button>
                     </div>
                     <footer class="modal-footer">
-                        <p class="modal-help">Need <a href="" target="_blank">help ?</a></p>
+                        <p class="modal-help">
+                            Need <a href="" target="_blank">help ?</a>
+                        </p>
                     </footer>
                 </div>
             </div>
 
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
             <script src="./assets/js/main.js"></script>
         </div>
     </body>
