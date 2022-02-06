@@ -204,7 +204,9 @@ html {
 }
 #slider .swiper {
     margin-top: 46px;
+    width: 100%;
     z-index: -999999;
+    background-color: #000;
 }
 
 #slider .swiper-slide img {
@@ -621,4 +623,18 @@ html {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(68, 68, 68);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(107, 107, 107);
 }
